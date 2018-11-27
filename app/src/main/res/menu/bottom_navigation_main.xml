@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/essen"
+        android:enabled="true"
+        android:icon="@drawable/ic_essen"
+        android:title="Essen"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bezahlungen"
+        android:enabled="true"
+        android:icon="@drawable/ic_bezahlungen"
+        android:title="Bezahlung"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/einstellungen"
+        android:enabled="true"
+        android:icon="@drawable/ic_einstellungen"
+        android:title="Einstellungen"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profil"
+        android:enabled="true"
+        android:icon="@drawable/ic_profil"
+        android:title="Profil"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
